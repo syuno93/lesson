@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+/* Reset
+----------------------------------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{
+	zoom:1;	/* hasLayout in IE */
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font:inherit;
+	font-size:100%;
+	font-weight:normal;
+	font-style:normal;
+	vertical-align:baseline;
+	background:transparent;
+	-webkit-text-size-adjust: 100%;
+	word-break: break-all;
+}
+	p{max-height:100%;}
+	header, menu, nav, footer,
+	section,article, aside,
+	details, summary,
+	figure, figcaption{display:block;}
+	table{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+q, blockquote{quotes:none;}
+q:before, q:after, blockquote:before, blockquote:after{
+	content:"";
+	content:none;
+}
+img{
+	font-size:0;
+	line-height:0;
+	vertical-align: bottom;
+	height:auto;
+}
+a{
+	margin:0;
+	padding:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+	color:#333;
+}
+a:focus{outline:none;}
+a img{
+	border:none;
+	vertical-align:middle;
+}
+input{
+	-webkit-appearance: none;
+}
+textarea{overflow:auto;}
+label{cursor:pointer;}
+.clearfix:after{
+	display:block;
+	visibility:hidden;
+	content:".";
+	clear:both;
+	height:0;
+	font-size:0;
+	line-height:0;
+}
+* html .clearfix{zoom:1;}
+*:first-child + html .clearfix{zoom:1;}
+a{
+	text-decoration: none;
+}
+strong{
+	font-weight: normal;
+}
+ul,ol{
+	list-style-type: none;
+}
+body{
+	font-family: "游ゴシック体", YuGothic, "Yu Gothic Medium", sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #111;
+}
+.wrap{
+	width:100%;
+	overflow-x: hidden;
+}
+
+h2,h3,h4,h5{
+	font-weight: bold;
+}
+
+.inner{
+	margin:0 auto;
+	width: 1200px;
+}
+img{
+	max-width:100%;
+}
